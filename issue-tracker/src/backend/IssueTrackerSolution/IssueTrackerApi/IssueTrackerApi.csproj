@@ -23,4 +23,13 @@
 	  <PackageReference Include="WolverineFx.RDBMS" Version="2.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Protobuf Include="Protos\catalog-item-created.proto" GrpcServices="None">
+      <SourceUri>https://raw.githubusercontent.com/JeffryGonzalez/microservice-development-apr-2024/master/schema/software-center/catalog-item-created.proto</SourceUri>
+    </Protobuf>
+    <Protobuf Include="Protos\catalog-item-retired.proto" GrpcServices="None">
+      <SourceUri>https://raw.githubusercontent.com/JeffryGonzalez/microservice-development-apr-2024/master/schema/software-center/catalog-item-retired.proto</SourceUri>
+    </Protobuf>
+  </ItemGroup>
+
 </Project>
